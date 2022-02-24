@@ -9,6 +9,7 @@ function handleLink(event) {
   linksInternos.forEach((link) => {
     link.classList.remove('ativo');
   });
+  event.currentTarget.classList.add('ativo');
 }
 
 
