@@ -12,6 +12,9 @@ function handleLink(event) {
   event.currentTarget.classList.add('ativo');
 }
 
+linksInternos.forEach((link) => {
+  link.addEventListener('click', handleLink);
+});
 
 // Selecione todos os elementos do site começando a partir do body,
 // ao clique mostre exatamente quais elementos estão sendo clicado
