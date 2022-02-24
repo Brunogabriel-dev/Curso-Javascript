@@ -24,6 +24,10 @@ function handleElemento(event) {
   console.log(event.currentTarget);
 }
 
+todosElementos.forEach((elemento) => {
+  elemento.addEventListener('click', handleElemento);
+})
+
 // Utilizando o código anterior, ao invés de mostrar no console,
 // remova o elemento que está sendo clicado, o método remove() remove um elemento
 
