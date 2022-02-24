@@ -2,6 +2,14 @@
 // adicione a classe ativo ao item ckicado e remova dos
 // demais intes caso eles possuam a mesma. Previna
 // o comportamento padrão desses links
+const linksInternos = document.querySelectorAll('a[href^="#"]');
+
+function handleLink(event) {
+  event.preventDefaul();
+  linksInternos.forEach((link) => {
+    link.classList.remove('ativo');
+  });
+}
 
 
 // Selecione todos os elementos do site começando a partir do body,
