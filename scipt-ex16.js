@@ -1,4 +1,4 @@
-// quando o usuário clicar nos links internos dp site,
+// quando o usuário clicar nos links internos do site,
 // adicione a classe ativo ao item ckicado e remova dos
 // demais intes caso eles possuam a mesma. Previna
 // o comportamento padrão desses links
