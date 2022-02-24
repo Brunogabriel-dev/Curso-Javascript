@@ -1,5 +1,5 @@
 // quando o usuário clicar nos links internos do site,
-// adicione a classe ativo ao item ckicado e remova dos
+// adicione a classe ativo ao item clicado e remova dos
 // demais intes caso eles possuam a mesma. Previna
 // o comportamento padrão desses links
 const linksInternos = document.querySelectorAll('a[href^="#"]');
