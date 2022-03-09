@@ -232,5 +232,11 @@ background: #faf6ed
 }
 
 .js-accordion dt::after {
-  content: '↴'
+  content: '⬎';
+  margin-left: 10px;
 }
+
+.js-accordion dt.ativo::after {
+  content: '⬏';
+}
+
