@@ -1,5 +1,7 @@
 const tabmenu = document.querySelectorAll('.js-tabmenu li');
 const tabContent = document.querySelectorAll('.js-tabcontent section');
+
+if(tabmenu.length && tabContent.lenght) {
 tabContent[0].classLista.add('ativo');
 
 function activeTab(index) {
@@ -14,3 +16,4 @@ tabmenu.forEach((itemMenu, index) => {
     activeTab(index);
   });
 });
+}
