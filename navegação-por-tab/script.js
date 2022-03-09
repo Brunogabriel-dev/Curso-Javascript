@@ -10,5 +10,7 @@ function activeTab(index) {
 }
 
 tabmenu.forEach((itemMenu, index) => {
-  itemMenu.addEventListener('click',)
+  itemMenu.addEventListener('click',() => {
+    activeTab(index);
+  });
 });
