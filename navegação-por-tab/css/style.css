@@ -206,3 +206,7 @@ background: #faf6ed
     margin-bottom: 0px;
   }
 }
+
+.js-tabcontent section {
+  display: none;
+}
