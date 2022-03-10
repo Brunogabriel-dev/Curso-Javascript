@@ -48,7 +48,7 @@ function scrolltoSection(event) {
   const href = event.currentTarget.getAttribute('href');
   const section = document.querySelector(href);
   console.log(section);
-
+  window.scrollTo(0, 1000);
 }
 
 linksInternos.forEach((link) => {
