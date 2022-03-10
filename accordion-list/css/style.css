@@ -240,3 +240,6 @@ background: #faf6ed
   content: '⬏';
 }
 
+.js-accordion dd.ativo {
+  display: block;
+}
