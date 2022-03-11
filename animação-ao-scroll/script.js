@@ -66,3 +66,11 @@
   });
   }
   initScrollSuave();
+
+  const section = document.querySelectorAll('.js-scroll');
+
+  function animaScroll() {
+    console.log('sim');
+  }
+
+  
