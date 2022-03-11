@@ -70,7 +70,13 @@
   const section = document.querySelectorAll('.js-scroll');
 
   function animaScroll() {
-    console.log('sim');
+    section.forEach((section) => {
+      const sectionTop = section.getBoundingClientRect().top;
+      if(sectionTop < 0) {
+        section.classList.add('ativo');
+      }
+    })
   }
 
-  
+  window.addEventListener('scroll', animaScroll);
+
