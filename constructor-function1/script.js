@@ -3,6 +3,6 @@ function Carro(marcaAtribuida, preco) {
  this.preco = 2000;
 }
 
-const honda = Carro();
+const honda = new Carro();
 const fiat = new Carro();
 fiat.marca = 'Fiat'; 
