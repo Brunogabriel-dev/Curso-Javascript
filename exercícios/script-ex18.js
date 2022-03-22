@@ -29,3 +29,11 @@ const bruno = new Pessoa('Bruno', 15);
 // elements, retorna NodeList com os elementos selecionados
 // addClass(classe), adiciona a classe a todos os elementos
 // removeClass(classe), remove a classe a todos os elementos
+
+function Dom (seletor) {
+  const elementList = document.querySelectorAll(seletor);
+  this.elements = elementList;
+}
+
+
+const listaItens = new Dom('li')
